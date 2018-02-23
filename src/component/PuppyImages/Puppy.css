@@ -1,6 +1,6 @@
 img {
-	height: 50%;
-	width: 50%;
+	height: 100px;
+	width: 200px;
 	border: 1px solid black;
 	margin-bottom: 10px;
 }

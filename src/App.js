@@ -25,7 +25,7 @@ class App extends Component {
                 puppies[i].clicked = false;
             }
 
-            this.setState({message: "You already caught that fish.  Start fishing again."});
+            this.setState({message: "You already gave that puppy some love! Start again."});
             this.setState({ currentScore: 0 });
             puppies.sort(function(a, b){return 0.5 - Math.random()});            
 
@@ -43,11 +43,11 @@ class App extends Component {
 
             puppies.sort(function(a, b){return 0.5 - Math.random()});
             this.setState({currentScore: this.state.currentScore + 1});
-            this.setState({message: "Keep casting..."});
+            this.setState({message: "Pet them all!"});
 
         } else {
 
-            this.setState({ topScore: 6 });
+            this.setState({ topScore: 12 });
             
             for (let i = 0 ; i < puppies.length ; i++){
                 puppies[i].clicked = false;
@@ -56,7 +56,7 @@ class App extends Component {
             puppies.sort(function(a, b){return 0.5 - Math.random()});
 
             this.setState({currentScore: 0});
-            this.setState({message: "You caught them all, start over!"});            
+            this.setState({message: "You pet them all, start over!"});            
 
         }
     };

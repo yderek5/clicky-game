@@ -1,7 +1,7 @@
 import React from "react";
-import "./Trout.css";
+import "./Puppy.css";
 
-const TroutImages = props => (
+const PuppyImages = props => (
     <div onClick={() => props.setClicked(props.id)} className="myTrout">
         <div className="img-responsive">
             <img alt={props.name} src={props.image} />
@@ -9,4 +9,4 @@ const TroutImages = props => (
   </div>
 );
 
-export default TroutImages;
+export default PuppyImages;

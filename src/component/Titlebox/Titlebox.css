@@ -1,0 +1,22 @@
+.myPanel {
+  width: 100%;
+}
+
+
+div.jumbotron.hero-nature{
+    color:#fff;
+    text-align:center;
+    background:url('river.png');
+    background-size:cover;
+    background-position:center;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+h1 {
+	color: white;
+}
+
+.textCenter {
+  text-align: center;
+}

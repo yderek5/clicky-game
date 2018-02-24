@@ -2,9 +2,9 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yderek5.github.io/clicky-game/",
+  "homepage": "https://yderek5.github.io/clicky-game/",
   "devDependencies": {
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^1.1.0",
     "react-scripts": "1.1.1"
   },
   "dependencies": {
